@@ -239,6 +239,11 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
 
+# Device Personalization Services
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuilt\
+    privapp-permissions-com.google.android.as.xml
+
 # Doze
 PRODUCT_PACKAGES += \
     OnePlusDoze
